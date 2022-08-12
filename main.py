@@ -45,11 +45,11 @@ while True:
         print("O's WIN!!!")
         break
 
-    elif field[0, 0] and field[1, 1] and field[2, 2] == "X":
+    elif field[0, 0] and field[1, 1] and field[2, 2] == "O":
         print("0's WIN!!!")
         break
 
-    elif field[0, 2] and field[1, 1] and field[2, 0] == "X":
+    elif field[0, 2] and field[1, 1] and field[2, 0] == "O":
         print("0's WIN!!!")
         break
 
